@@ -1,0 +1,42 @@
+body {
+    background: #000;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.content-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 20px;
+    display: flex;
+    gap: 3rem;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.image-container img {
+
+    height: 70vh;
+    border-radius: 10px;
+    margin-left: 10vw;
+}
+
+.text-container {
+    padding: 10px; 
+    text-align: justify;
+    font-size: 1.75em;
+    margin-right: 10vw;
+}
+
+.text-title-container {
+    color: #ffde21e5;
+    font-size: 1.5em;
+}
+
+.paragraph {
+    font-family: sans-serif;
+    color: #fff;
+}

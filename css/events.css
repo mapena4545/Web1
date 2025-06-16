@@ -1,0 +1,16 @@
+.cta-button:hover {
+    background-color:  #ffd700;
+    transform: scale(1);
+}
+
+.text-subtitle-container {
+    color: #ffde21e5;
+}
+
+.text-container ul {
+    list-style: none;
+}
+
+.text-title-bulletpoint {
+    color: #cea317;
+}

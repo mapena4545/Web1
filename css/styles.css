@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('../img/John_Martin_-_The_Great_Day_of_His_Wrath_-_Google_Art_Project.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Tagesschrift", sans-serif;
+    color: #fff;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    padding: 0.8rem;
+    padding-top: 0.25rem;
+    background: rgba(0, 0, 0, 1);
+    position: relative;
+    z-index: 2;
+}
+
+header h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+nav {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 1.3rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    list-style: none;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.15em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #cea317;
+}
+
+.hero {
+    flex: 1;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    background-color:  #d4af37;
+    color: #000;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: transform 2s, background-color 0.3s;
+    margin-top: 2rem;
+}
+
+.cta-button:hover {
+    background-color:  #ffd700;
+    transform: scale(1.25);
+}
+
+
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    color: rgba(255,255,255,0.9);
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}

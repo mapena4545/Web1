@@ -1,0 +1,56 @@
+body {
+    background: #000;
+}
+
+main.gallery-container {
+    flex: 1;
+    padding: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius:  8px 8px 0 0;
+    transition: transform 0.3s ease;
+    aspect-ratio: 1/1.2;
+    background-color: #c99a00;
+}
+
+.gallery-item:hover {
+    transform: translateY(-5px);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 85%;
+    object-fit: cover;
+    border-radius:  8px 8px 0 0;
+}
+
+.painting-info {
+    height: 15%;
+    background: rgba(0,0,0,1);
+    padding: 1rem;
+    border-radius: 0 0 8px 8px;
+}
+
+.painting-title {
+    color: #cea317;
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+}
+
+.painting-year {
+    color: #888;
+    font-size: 0.9rem;
+}
