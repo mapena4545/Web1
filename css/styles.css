@@ -5,7 +5,7 @@
 }
 
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('../img/John_Martin_-_The_Great_Day_of_His_Wrath_-_Google_Art_Project.jpg'); 
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url('../img/John_Martin_-_The_Great_Day_of_His_Wrath_-_Google_Art_Project.jpg'); 
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -101,8 +101,7 @@ footer {
     text-align: center;
     position: relative;
     z-index: 1;
-    color: rgba(255,255,255,0.9);
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    color: rgba(255,255,255,0.8);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
