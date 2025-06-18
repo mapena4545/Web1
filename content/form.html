@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/history.css">
     <link rel="stylesheet" href="../css/events.css">
+    <link rel="stylesheet" href="../css/form.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap" rel="stylesheet">
@@ -37,24 +38,26 @@
             <div class="content-container">
                 <div class="text-container">
                     <h2 class="text-title-container">Formulario</h2>
-                    <form action="" method="get">
-                        <div>
+                    <form action="successform.html" method="get">
+                        <div class="form-div">
                             <label for="nombre">Nombre:</label>
-                            <input type="text" id="nombre" name="nombre" required minlength="3" placeholder="Tu nombre">
+                            <input type="text" id="nombre" name="nombre" required minlength="3" placeholder="Nombre">
                         </div>
-                        <div>
+                        <div class="form-div">
                             <label for="apellido">Apellido:</label>
-                            <input type="text" id="apellido" name="apellido" required minlength="3" placeholder="Tu apellido">
+                            <input type="text" id="apellido" name="apellido" required minlength="3" placeholder="Apellido">
                         </div>
-                        <div>
+                        <div class="form-div">
                             <label for="mail">Mail:</label>
-                            <input type="text" id="mail" name="mail" required placeholder="tumail@mail.com">
+                            <input type="email" id="mail" name="mail" required placeholder="tumail@mail.com">
                         </div>
-                        <div>
+                        <div class="form-div">
                             <label for="mensaje">Mensaje:</label>
                             <input type="text" id="mensaje" name="mensaje" rows="3" placeholder="Envianos un comentario de feedback..">
                         </div>
-                        <a href="successform.html" class="cta-button">Enviar</a>
+                        <button type="submit" class="cta-button">
+                            Enviar
+                        </button>
                     </form>
                 </div>
             </div>

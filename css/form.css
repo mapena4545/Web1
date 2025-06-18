@@ -1,0 +1,18 @@
+.form-div input[type="text"],
+.form-div input[type="email"] 
+{
+    width: 100%;
+    border: 2px solid #cea317;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-family: "Tagesschrift", sans-serif;;
+    box-sizing: border-box;
+}
+button{
+    font-family: "Tagesschrift", sans-serif;
+    font-size: 1.5rem;
+}
+
+button:hover{
+    cursor: pointer;
+}
