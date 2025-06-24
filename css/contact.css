@@ -1,0 +1,16 @@
+@media (max-width: 1350px) {
+    .image-container img{
+        margin-left: 0;
+        width: 100%;
+    }
+    .flex-container {
+        flex-direction: column;
+    }
+    .text-container {
+        margin-right: 0;
+        text-align: center;
+    }
+    p {
+        font-size: 1.25rem;
+    }
+}

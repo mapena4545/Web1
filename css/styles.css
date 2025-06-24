@@ -33,7 +33,7 @@ nav {
     padding: 1.3rem;
     position: sticky;
     top: 0;
-    z-index: 1000;
+    z-index: 1;
 }
 
 nav ul {
@@ -101,7 +101,8 @@ footer {
     text-align: center;
     position: relative;
     z-index: 1;
-    color: rgba(255,255,255,0.8);
+    color: rgba(255,255,255,0.9);
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -110,4 +111,26 @@ footer {
 .copyright{
     margin: 0;
     padding-top: 1.5em;
+}
+
+@media (max-width: 992px) {
+    nav {
+        position: relative;
+    }
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
+    }
+    ul li {
+        padding: 0.5rem;
+    }
+    
+    footer {
+        flex-direction: column;
+    }
+    iframe {
+        padding-top: 1rem;
+        width: 100%;
+    }
 }
