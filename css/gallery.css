@@ -83,3 +83,25 @@ main.gallery-container {
         height: 25%;
     }
 }
+
+@media (max-width: 420px) {
+    .gallery-item img {
+        height: 70%;
+    }
+
+    .painting-info {
+        height: 30%;
+    }
+}
+
+
+@media (max-width: 360px) {
+    .painting-info {
+        padding-top: 0.5rem;
+    }
+
+    .painting-title {
+        font-size: 0.90rem;
+    }
+}
+
